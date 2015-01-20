@@ -1,0 +1,125 @@
+-- Merging decision tree log ---
+manifest
+ADDED from AndroidManifest.xml:17:1
+	package
+		ADDED from AndroidManifest.xml:18:5
+	android:versionName
+		ADDED from AndroidManifest.xml:20:5
+	android:versionCode
+		ADDED from AndroidManifest.xml:19:5
+		INJECTED from AndroidManifest.xml:0:0
+		INJECTED from AndroidManifest.xml:0:0
+	xmlns:android
+		ADDED from AndroidManifest.xml:17:11
+uses-sdk
+ADDED from AndroidManifest.xml:23:5
+	android:targetSdkVersion
+		ADDED from AndroidManifest.xml:25:9
+		INJECTED from AndroidManifest.xml:0:0
+		INJECTED from AndroidManifest.xml:0:0
+	android:minSdkVersion
+		ADDED from AndroidManifest.xml:24:9
+		INJECTED from AndroidManifest.xml:0:0
+		INJECTED from AndroidManifest.xml:0:0
+uses-permission#com.google.android.glass.permission.DEVELOPMENT
+ADDED from AndroidManifest.xml:28:5
+	android:name
+		ADDED from AndroidManifest.xml:28:22
+uses-feature#0x00020000
+ADDED from AndroidManifest.xml:30:5
+	android:glEsVersion
+		ADDED from AndroidManifest.xml:30:19
+	android:required
+		ADDED from AndroidManifest.xml:30:52
+application
+ADDED from AndroidManifest.xml:32:5
+activity#com.google.android.glass.sample.apidemo.ApiDemoActivity
+ADDED from AndroidManifest.xml:34:9
+	android:label
+		ADDED from AndroidManifest.xml:36:13
+	android:exported
+		ADDED from AndroidManifest.xml:37:13
+	android:icon
+		ADDED from AndroidManifest.xml:35:13
+	android:name
+		ADDED from AndroidManifest.xml:34:19
+intent-filter#com.google.android.glass.action.VOICE_TRIGGER
+ADDED from AndroidManifest.xml:38:13
+action#com.google.android.glass.action.VOICE_TRIGGER
+ADDED from AndroidManifest.xml:39:17
+	android:name
+		ADDED from AndroidManifest.xml:39:25
+meta-data#com.google.android.glass.VoiceTrigger
+ADDED from AndroidManifest.xml:41:13
+	android:resource
+		ADDED from AndroidManifest.xml:42:17
+	android:name
+		ADDED from AndroidManifest.xml:41:24
+activity#com.google.android.glass.sample.apidemo.card.CardBuilderActivity
+ADDED from AndroidManifest.xml:46:9
+	android:exported
+		ADDED from AndroidManifest.xml:47:13
+	android:name
+		ADDED from AndroidManifest.xml:46:19
+activity#com.google.android.glass.sample.apidemo.card.EmbeddedCardLayoutActivity
+ADDED from AndroidManifest.xml:50:9
+	android:exported
+		ADDED from AndroidManifest.xml:51:13
+	android:name
+		ADDED from AndroidManifest.xml:50:19
+activity#com.google.android.glass.sample.apidemo.card.CardScrollViewActivity
+ADDED from AndroidManifest.xml:54:9
+	android:exported
+		ADDED from AndroidManifest.xml:55:13
+	android:name
+		ADDED from AndroidManifest.xml:54:19
+activity#com.google.android.glass.sample.apidemo.touchpad.SelectGestureDemoActivity
+ADDED from AndroidManifest.xml:58:9
+	android:exported
+		ADDED from AndroidManifest.xml:59:13
+	android:name
+		ADDED from AndroidManifest.xml:58:19
+activity#com.google.android.glass.sample.apidemo.touchpad.DiscreteGesturesActivity
+ADDED from AndroidManifest.xml:62:9
+	android:exported
+		ADDED from AndroidManifest.xml:63:13
+	android:name
+		ADDED from AndroidManifest.xml:62:19
+activity#com.google.android.glass.sample.apidemo.touchpad.ContinuousGesturesActivity
+ADDED from AndroidManifest.xml:66:9
+	android:exported
+		ADDED from AndroidManifest.xml:67:13
+	android:name
+		ADDED from AndroidManifest.xml:66:19
+activity#com.google.android.glass.sample.apidemo.theming.TextAppearanceActivity
+ADDED from AndroidManifest.xml:70:9
+	android:exported
+		ADDED from AndroidManifest.xml:71:13
+	android:name
+		ADDED from AndroidManifest.xml:70:19
+activity#com.google.android.glass.sample.apidemo.opengl.MenuActivity
+ADDED from AndroidManifest.xml:74:9
+	android:exported
+		ADDED from AndroidManifest.xml:75:13
+	android:theme
+		ADDED from AndroidManifest.xml:76:13
+	android:name
+		ADDED from AndroidManifest.xml:74:19
+service#com.google.android.glass.sample.apidemo.opengl.OpenGlService
+ADDED from AndroidManifest.xml:79:9
+	android:exported
+		ADDED from AndroidManifest.xml:81:13
+	android:name
+		ADDED from AndroidManifest.xml:80:13
+activity#com.google.android.glass.sample.apidemo.voicemenu.VoiceMenuActivity
+ADDED from AndroidManifest.xml:84:9
+	android:exported
+		ADDED from AndroidManifest.xml:85:13
+	android:name
+		ADDED from AndroidManifest.xml:84:19
+activity#com.google.android.glass.sample.apidemo.slider.SliderActivity
+ADDED from AndroidManifest.xml:88:9
+	android:exported
+		ADDED from AndroidManifest.xml:89:13
+	android:name
+		ADDED from AndroidManifest.xml:88:19

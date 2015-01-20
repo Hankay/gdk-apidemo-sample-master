@@ -1,0 +1,1 @@
+/Users/Test/gdk-apidemo-sample-master/app/build/intermediates/classes/debug
